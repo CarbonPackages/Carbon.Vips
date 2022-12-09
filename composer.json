@@ -2,6 +2,7 @@
   "name" : "carbon/vips",
   "description": "Enable Vips in your Neoes CMS installation",
   "type" : "neos-carbon",
+  "license": "MIT",
   "require" : {
     "rokka/imagine-vips": "^0.31.0",
     "jcupitt/vips": "^1.0"
