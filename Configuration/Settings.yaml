@@ -1,0 +1,18 @@
+Neos:
+  Imagine:
+    driver: Vips
+    enabledDrivers:
+      Vips: true
+      Gd: true
+      Imagick: true
+
+  Media:
+    image:
+      defaultOptions:
+        # The Vips driver does not support interlace
+        interlace: ~
+
+Sitegeist:
+  Kaleidoscope:
+    dummyImage:
+      overrideImagineDriver: Imagick
