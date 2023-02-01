@@ -1,6 +1,6 @@
 {
   "name" : "carbon/vips",
-  "description": "Enable Vips in your Neoes CMS installation",
+  "description": "Enable Vips in your Neos CMS installation",
   "type" : "neos-carbon",
   "license": "MIT",
   "require" : {
